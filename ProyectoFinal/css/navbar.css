@@ -1,5 +1,2 @@
 
-button:hover {
-    background-color: seagreen;
-    color: white;
-}
+a:hover{ text-decoration: underline;}

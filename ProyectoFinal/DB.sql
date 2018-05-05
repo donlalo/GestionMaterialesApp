@@ -57,3 +57,10 @@ end if;
 select resultado;
 end
 //
+/* Lista Todas Las Categorias*/
+delimiter //
+create procedure categorias_listar(_limit int(3))
+begin
+select id, nombre, descripcion, fecCreacion, fecActualizacion from categorias limit _limit;
+end
+//

@@ -13,17 +13,17 @@
   <body>
     <?php include('../components/navbar.php'); ?>
       <div class="container">
-      <?php 
-      if(isset($_GET['pagina']))
-      {
-        if($_GET['pagina'] == 'crearArticulo')
-        {
-          echo '<h1>Ingresar Articulo</h1>';
-          include('articulo/crear.php');
-        }
-      }
-      ?>
-
+        <hr>
+      <div class="card">
+        <div class="card-body">
+        <?php 
+          if(isset($_GET['categoria']) == 'index')
+          {
+            include('categoria/index.php');
+          }   
+        ?>
+        </div>
+      </div>
       </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
