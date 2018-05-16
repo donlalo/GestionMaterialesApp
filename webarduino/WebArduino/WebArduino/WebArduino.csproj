@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FC06A079-3EBA-453C-8A95-B2E1F06A36C1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebArduino</RootNamespace>
+    <AssemblyName>WebArduino</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="editarUsuarios\consultarUsuario\ConsultarUsuario.aspx" />
+    <Content Include="editarUsuarios\crearUsuario\WebFormCrearUsuario.aspx" />
+    <Content Include="editarUsuarios\css\style.css" />
+    <Content Include="editarUsuarios\images\bg.png" />
+    <Content Include="humedad\css\style.css" />
+    <Content Include="humedad\images\bg.png" />
+    <Content Include="humedad\registros\WebFormRegistrosHumedad.aspx" />
+    <Content Include="humedad\WebFormHumedad.aspx" />
+    <Content Include="images\Thumbs.db" />
+    <Content Include="menuAdministrador\css\demo.css" />
+    <Content Include="menuAdministrador\css\reset.css" />
+    <Content Include="menuAdministrador\css\style1.css" />
+    <Content Include="menuAdministrador\css\style10.css" />
+    <Content Include="menuAdministrador\css\style2.css" />
+    <Content Include="menuAdministrador\css\style3.css" />
+    <Content Include="menuAdministrador\css\style4.css" />
+    <Content Include="menuAdministrador\css\style5.css" />
+    <Content Include="menuAdministrador\css\style6.css" />
+    <Content Include="menuAdministrador\css\style7.css" />
+    <Content Include="menuAdministrador\css\style8.css" />
+    <Content Include="menuAdministrador\css\style9.css" />
+    <Content Include="menuAdministrador\css\websymbols\generator_config.txt" />
+    <Content Include="menuAdministrador\css\websymbols\specimen_files\easytabs.js" />
+    <Content Include="menuAdministrador\css\websymbols\specimen_files\grid_12-825-55-15.css" />
+    <Content Include="menuAdministrador\css\websymbols\specimen_files\specimen_stylesheet.css" />
+    <Content Include="menuAdministrador\css\websymbols\specimen_files\websymbols-regular-cleartype.png" />
+    <Content Include="menuAdministrador\css\websymbols\stylesheet.css" />
+    <Content Include="menuAdministrador\css\websymbols\websymbols-regular-webfont.svg" />
+    <Content Include="menuAdministrador\css\websymbols\WebSymbolsRegular-demo.html" />
+    <Content Include="menuAdministrador\images\beige_paper.png" />
+    <Content Include="menuAdministrador\index.html" />
+    <Content Include="menu\css\websymbols\websymbols-regular-webfont.eot" />
+    <Content Include="menu\css\websymbols\websymbols-regular-webfont.ttf" />
+    <Content Include="menu\css\websymbols\websymbols-regular-webfont.woff" />
+    <Content Include="menu\images\Thumbs.db" />
+    <Content Include="menuAdministrador\css\websymbols\websymbols-regular-webfont.eot" />
+    <Content Include="menuAdministrador\css\websymbols\websymbols-regular-webfont.ttf" />
+    <Content Include="menuAdministrador\css\websymbols\websymbols-regular-webfont.woff" />
+    <Content Include="menuAdministrador\images\Thumbs.db" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\style.css" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\icons.png" />
+    <Content Include="images\mem.png" />
+    <Content Include="images\mem2.jpg" />
+    <Content Include="images\s-colr.png" />
+    <Content Include="images\tick.png" />
+    <Content Include="menu\css\demo.css" />
+    <Content Include="menu\css\reset.css" />
+    <Content Include="menu\css\style1.css" />
+    <Content Include="menu\css\style10.css" />
+    <Content Include="menu\css\style2.css" />
+    <Content Include="menu\css\style3.css" />
+    <Content Include="menu\css\style4.css" />
+    <Content Include="menu\css\style5.css" />
+    <Content Include="menu\css\style6.css" />
+    <Content Include="menu\css\style7.css" />
+    <Content Include="menu\css\style8.css" />
+    <Content Include="menu\css\style9.css" />
+    <Content Include="menu\css\websymbols\generator_config.txt" />
+    <Content Include="menu\css\websymbols\specimen_files\easytabs.js" />
+    <Content Include="menu\css\websymbols\specimen_files\grid_12-825-55-15.css" />
+    <Content Include="menu\css\websymbols\specimen_files\specimen_stylesheet.css" />
+    <Content Include="menu\css\websymbols\specimen_files\websymbols-regular-cleartype.png" />
+    <Content Include="menu\css\websymbols\stylesheet.css" />
+    <Content Include="menu\css\websymbols\websymbols-regular-webfont.svg" />
+    <Content Include="menu\css\websymbols\WebSymbolsRegular-demo.html" />
+    <Content Include="menu\images\beige_paper.png" />
+    <Content Include="menu\index.html" />
+    <Content Include="regadio\css\style.css" />
+    <Content Include="regadio\images\bg.png" />
+    <Content Include="regadio\WebFormRegadio.aspx" />
+    <Content Include="temperatura\css\style.css" />
+    <Content Include="temperatura\images\bg.png" />
+    <Content Include="temperatura\registros\WebFormRegistrosTemperatura.aspx" />
+    <Content Include="temperatura\WebFormVistaTemperatura.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conectar.cs" />
+    <Compile Include="editarUsuarios\consultarUsuario\ConsultarUsuario.aspx.cs">
+      <DependentUpon>ConsultarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editarUsuarios\consultarUsuario\ConsultarUsuario.aspx.designer.cs">
+      <DependentUpon>ConsultarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editarUsuarios\crearUsuario\WebFormCrearUsuario.aspx.cs">
+      <DependentUpon>WebFormCrearUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editarUsuarios\crearUsuario\WebFormCrearUsuario.aspx.designer.cs">
+      <DependentUpon>WebFormCrearUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="humedad\registros\WebFormRegistrosHumedad.aspx.cs">
+      <DependentUpon>WebFormRegistrosHumedad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="humedad\registros\WebFormRegistrosHumedad.aspx.designer.cs">
+      <DependentUpon>WebFormRegistrosHumedad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="humedad\WebFormHumedad.aspx.cs">
+      <DependentUpon>WebFormHumedad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="humedad\WebFormHumedad.aspx.designer.cs">
+      <DependentUpon>WebFormHumedad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="regadio\WebFormRegadio.aspx.cs">
+      <DependentUpon>WebFormRegadio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="regadio\WebFormRegadio.aspx.designer.cs">
+      <DependentUpon>WebFormRegadio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="temperatura\registros\WebFormRegistrosTemperatura.aspx.cs">
+      <DependentUpon>WebFormRegistrosTemperatura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="temperatura\registros\WebFormRegistrosTemperatura.aspx.designer.cs">
+      <DependentUpon>WebFormRegistrosTemperatura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="temperatura\WebFormVistaTemperatura.aspx.cs">
+      <DependentUpon>WebFormVistaTemperatura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="temperatura\WebFormVistaTemperatura.aspx.designer.cs">
+      <DependentUpon>WebFormVistaTemperatura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49359</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49359/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

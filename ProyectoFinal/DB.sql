@@ -64,3 +64,10 @@ begin
 select id, nombre, descripcion, fecCreacion, fecActualizacion from categorias limit _limit;
 end
 //
+
+delimiter //
+create procedure categorias_crear(_nombre varchar(50), __descripcion varchar(250))
+begin
+insert into categorias (id,nombre,descripcion,fecCreacion,fecActualizacion) values (null,_nombre,__descripcion,now(),now());
+end
+//

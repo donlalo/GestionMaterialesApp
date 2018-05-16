@@ -1,0 +1,18 @@
+C:\Users\Eduardo\Documents\Visual Studio 2013\Projects\WebArduino\WebArduino\bin\WebArduino.dll.config
+C:\Users\Eduardo\Documents\Visual Studio 2013\Projects\WebArduino\WebArduino\bin\WebArduino.dll
+C:\Users\Eduardo\Documents\Visual Studio 2013\Projects\WebArduino\WebArduino\bin\WebArduino.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2013\Projects\WebArduino\WebArduino\obj\Debug\WebArduino.dll
+C:\Users\Eduardo\Documents\Visual Studio 2013\Projects\WebArduino\WebArduino\obj\Debug\WebArduino.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2013\Projects\WebArduino\WebArduino\obj\Debug\WebArduino.csprojResolveAssemblyReference.cache
+C:\Users\fabian\Desktop\WebArduino\WebArduino\bin\WebArduino.dll.config
+C:\Users\fabian\Desktop\WebArduino\WebArduino\bin\WebArduino.dll
+C:\Users\fabian\Desktop\WebArduino\WebArduino\bin\WebArduino.pdb
+C:\Users\fabian\Desktop\WebArduino\WebArduino\obj\Debug\WebArduino.csprojResolveAssemblyReference.cache
+C:\Users\fabian\Desktop\WebArduino\WebArduino\obj\Debug\WebArduino.dll
+C:\Users\fabian\Desktop\WebArduino\WebArduino\obj\Debug\WebArduino.pdb
+C:\Users\Eduardo\Desktop\arduino\WebArduino\WebArduino\bin\WebArduino.dll.config
+C:\Users\Eduardo\Desktop\arduino\WebArduino\WebArduino\bin\WebArduino.dll
+C:\Users\Eduardo\Desktop\arduino\WebArduino\WebArduino\bin\WebArduino.pdb
+C:\Users\Eduardo\Desktop\arduino\WebArduino\WebArduino\obj\Debug\WebArduino.csprojResolveAssemblyReference.cache
+C:\Users\Eduardo\Desktop\arduino\WebArduino\WebArduino\obj\Debug\WebArduino.dll
+C:\Users\Eduardo\Desktop\arduino\WebArduino\WebArduino\obj\Debug\WebArduino.pdb
